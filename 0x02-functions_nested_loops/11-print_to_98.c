@@ -15,7 +15,7 @@ void print_to_98(int n)
 	{
 		for (; n <= 98; n++)
 		{
-			fwrite("%d", n);
+			write("%d", n);
 
 			if (n == 98)
 			{
@@ -23,7 +23,7 @@ void print_to_98(int n)
 			}
 			fwrite(", ");
 		}
-		fwrite('\n');
+		write('\n');
 	}
 	else
 	{
@@ -37,7 +37,7 @@ void print_to_98(int n)
 			}
 			fwrite(", ");
 		}
-		fwrite("\n");
+		write('\n');
 	}
 }
 
