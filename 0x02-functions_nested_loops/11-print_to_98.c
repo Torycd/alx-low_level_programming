@@ -15,29 +15,29 @@ void print_to_98(int n)
 	{
 		for (; n <= 98; n++)
 		{
-			write("%d", n);
+			fwrite("%d", n);
 
 			if (n == 98)
 			{
 				continue;
 			}
-			write(", ");
+			fwrite(", ");
 		}
-		write('\n');
+		fwrite('\n');
 	}
 	else
 	{
 		for (; n >= 98; n--)
 		{
-			write("d%", n);
+			fwrite("d%", n);
 
 			if (n == 98)
 			{
 				continue;
 			}
-			write(", ");
+			fwrite(", ");
 		}
-		write("\n");
+		fwrite("\n");
 	}
 }
 
