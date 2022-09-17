@@ -21,7 +21,7 @@ void print_number(int n)
 
 /**
  * print_integer - A function to print in n
- * @m: An input unsigned intger
+ * @m: An input unsigned integer
  * Return: Nothing
  */
 
