@@ -13,22 +13,22 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			write("FizzBuzz ");
+			fwrite("FizzBuzz ");
 		}
 		else if  (i % 3 == 0)
 		{
-			write("Fizz ");
+			fwrite("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			write("Buzz ");
+			fwrite("Buzz ");
 		}
 		else
 		{
-			write("%d ", i);
+			fwrite("%d ", i);
 		}
 	}
-	write("Buzz\n");
+	fwrite("Buzz\n");
 
 	return (0);
 }
