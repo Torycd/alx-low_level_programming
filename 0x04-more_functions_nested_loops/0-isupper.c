@@ -10,7 +10,7 @@ int _isupper(int c)
 	char uppercase = 'A';
 	int isupper = 0;
 
-	for (uppercase = 'A'; uppervase <= 'Z'; uppercase++)
+	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 	{
 		if (c == uppercase)
 		{
