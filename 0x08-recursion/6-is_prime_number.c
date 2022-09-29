@@ -15,7 +15,7 @@ int is_prime_number(int n)
 
 	if (n <= 3)
 		return (1);
-	return (is_divisble(n, div));
+	return (is_divisible(n, div));
 }
 
 /**
